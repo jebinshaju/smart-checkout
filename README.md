@@ -55,7 +55,7 @@ img2pdf
 5. **Running the Application:**
    - Run the main script:
      ```bash
-     python main.py
+     python app.py
      ```
    - The program will open the webcam, detect items, and display a billing sidebar.
    - Use **Save Invoice** to save the PDF or **Quit** to exit.
