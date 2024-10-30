@@ -73,6 +73,20 @@ img2pdf
 - **YOLO Model and Customization**: [Ultralytics YOLO](https://github.com/ultralytics/yolov5)
 - **Additional Python Libraries**: Refer to [OpenCV](https://opencv.org/), [NumPy](https://numpy.org/), [img2pdf](https://pypi.org/project/img2pdf/).
 
+
+### Set Up the YOLOv8 Model
+
+You can download the YOLOv8 models from the Ultralytics repository. Make sure to place the model file (`yolov8l.pt`) in the project directory.
+
+| Model Version | Download Link                                                                                          | Model Size | Suitable for         |
+|---------------|-------------------------------------------------------------------------------------------------------|------------|-----------------------|
+| YOLOv8n       | [Download](https://github.com/ultralytics/assets/releases/download/v0.0.0/yolov8n.pt)                 | 6.2 MB     | Raspberry Pi          |
+| YOLOv8s       | [Download](https://github.com/ultralytics/assets/releases/download/v0.0.0/yolov8s.pt)                 | 14.5 MB    | Raspberry Pi          |
+| YOLOv8m       | [Download](https://github.com/ultralytics/assets/releases/download/v0.0.0/yolov8m.pt)                 | 25.9 MB    | More capable systems  |
+| YOLOv8l       | [Download](https://github.com/ultralytics/assets/releases/download/v0.0.0/yolov8l.pt)                 | 46.2 MB    | High performance      |
+| YOLOv8x       | [Download](https://github.com/ultralytics/assets/releases/download/v0.0.0/yolov8x.pt)                 | 88.7 MB    | High performance      |
+
+**Note:** For Raspberry Pi, it is recommended to use `yolov8n.pt` or `yolov8s.pt` for faster performance due to limited resources.
 ---
 
 ### Disclaimer
