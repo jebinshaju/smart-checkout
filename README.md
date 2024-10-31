@@ -1,4 +1,4 @@
-### Smart Checkout
+# Smart Checkout
 **Smart Checkout: Real-Time Automated Billing System Using YOLO**
 
 ### Project Description
